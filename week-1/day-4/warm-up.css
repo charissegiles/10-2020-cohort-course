@@ -1,0 +1,14 @@
+h1 {
+    text-transform: lowercase;
+    color: red;
+}
+
+h2 {
+    text-align: right;
+    color: brown;
+}
+
+h3 {
+    font-size: 58px;
+    color: coral;
+}
