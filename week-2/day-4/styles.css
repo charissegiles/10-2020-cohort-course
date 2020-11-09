@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+
+#window,
+#window2 {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#imageSlider,
+#imageSlider2 {
+  display: flex;
+}
+
+#imageSlider {
+  animation-name: carousel;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes carousel {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-2000px);
+  }
+}
+
+#window2 {
+  position: relative;
+}
+#imageSlider2 {
+  position: absolute;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 1. create div for window
+    2. create div for imageSlider
+    3. add images of the similar size
+    4. normalize the image size to be the same
+    5. set width and height of window -->
+
+    <h1>Animated Carousel</h1>
+    <div id="window">
+      <div id="imageSlider">
+        <img width="500px" height="400px" src="images/a.jpg" alt="" />
+        <img width="500px" height="400px" src="images/b.jpeg" alt="" />
+        <img width="500px" height="400px" src="images/c.jpg" alt="" />
+        <img width="500px" height="400px" src="images/d.jpg" alt="" />
+        <img width="500px" height="400px" src="images/e.jpg" alt="" />
+      </div>
+    </div>
+    <h1>JavaScript Carousel</h1>
+    <div id="window2">
+      <div id="imageSlider2">
+        <img width="500px" height="400px" src="images/a.jpg" alt="" />
+        <img width="500px" height="400px" src="images/b.jpeg" alt="" />
+        <img width="500px" height="400px" src="images/c.jpg" alt="" />
+        <img width="500px" height="400px" src="images/d.jpg" alt="" />
+        <img width="500px" height="400px" src="images/e.jpg" alt="" />
+      </div>
+    </div>
+
+    <div id="buttons">
+      <button onclick="prev()"><<</button>
+      <button onclick="next()">>></button>
+    </div>
+    
+  </body>
+</html>
